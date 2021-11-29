@@ -2,12 +2,16 @@ maya a;
 maya b;
 maya c;
 nezahualcoyotl d = 2 + 2;
+colon col[5];
+nezahualcoyotl mat[3][4];
+malinche mal = simon;
+
 
 a = 1.0;
 b = 2.0;
 c = a + b;
 
-rifate suma(nezahualcoyotl num1, nezahualcoyotl num2){
+nezahualcoyotl suma(nezahualcoyotl num1, nezahualcoyotl num2){
     chance(num1 < 0){
         traite 0;
     }
@@ -19,6 +23,14 @@ rifate suma(nezahualcoyotl num1, nezahualcoyotl num2){
         traite suma;
     }
 }
+
+rifate print(){
+    grave("hello world");
+    graveAbajo("hello world con linea");
+    wacha();
+}
+
+print();
  
 pa(nezahualcoyotl i = 0; i <= 10; i ++){
    nezahualcoyotl j = 0;
@@ -27,9 +39,6 @@ pa(nezahualcoyotl i = 0; i <= 10; i ++){
         j++;
     }
 }
-grave("hello world");
-graveAbajo("hello world con linea");
-wacha();
 
 lopezobradorismo ejemplo{
     nezahualcoyotl n;

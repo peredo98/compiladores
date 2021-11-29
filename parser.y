@@ -13,7 +13,7 @@
 %}
  
 /* token definition */
-%token BOOL INT CHAR FLOAT IF ELSE WHILE FOR VOID STRUCT RETURN
+%token BOOL BOOLVAL INT CHAR FLOAT IF ELSE WHILE FOR VOID STRUCT RETURN
 %token OPAR OPREL NOTOP INCR
 %token LPAREN RPAREN LBRACK RBRACK LBRACE RBRACE SEMI COMMA ASSIGN
 %token ID LETRA DIGITO REAL STRING 
@@ -87,7 +87,7 @@ expresion:
 	function_call
 ;
  
-constant: LETRA | DIGITO | REAL | STRING ;
+constant: LETRA | DIGITO | REAL | STRING | BOOLVAL ;
  
 assigment: variable ASSIGN expresion SEMI | variable INCR SEMI; 
  

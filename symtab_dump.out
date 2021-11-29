@@ -1,16 +1,20 @@
 ------------ ------ ------------
 Name         Type   Line Numbers
 ------------ ------ -------------
-suma         undef    10   18   19   26 
-a            undef     1    6    8 
-b            undef     2    7    8 
-c            undef     3    8 
+suma         undef    14   22   23   38 
+a            undef     1   10   12 
+b            undef     2   11   12 
+c            undef     3   12 
 d            undef     4 
-i            undef    23   23   23   26 
-j            undef    24   25   26   27 
-m            undef    36 
-n            undef    35 
-ejemplostruct undef    34 
-num1         undef    10   11   18 
-num2         undef    10   14   18 
-co           undef    37 
+mal          undef     7 
+i            undef    35   35   35   38 
+j            undef    36   37   38   39 
+col          undef     5 
+m            undef    45 
+n            undef    44 
+mat          undef     6 
+ejemplo      undef    43 
+print        undef    27   33 
+num1         undef    14   15   22 
+num2         undef    14   18   22 
+co           undef    46 

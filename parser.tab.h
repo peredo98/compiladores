@@ -40,72 +40,74 @@
       know about them.  */
    enum yytokentype {
      BOOL = 258,
-     INT = 259,
-     CHAR = 260,
-     FLOAT = 261,
-     IF = 262,
-     ELSE = 263,
-     WHILE = 264,
-     FOR = 265,
-     VOID = 266,
-     STRUCT = 267,
-     RETURN = 268,
-     OPAR = 269,
-     OPREL = 270,
-     NOTOP = 271,
-     INCR = 272,
-     LPAREN = 273,
-     RPAREN = 274,
-     LBRACK = 275,
-     RBRACK = 276,
-     LBRACE = 277,
-     RBRACE = 278,
-     SEMI = 279,
-     COMMA = 280,
-     ASSIGN = 281,
-     ID = 282,
-     LETRA = 283,
-     DIGITO = 284,
-     REAL = 285,
-     STRING = 286,
-     PRINT = 287,
-     PRINTNL = 288,
-     READ = 289
+     BOOLVAL = 259,
+     INT = 260,
+     CHAR = 261,
+     FLOAT = 262,
+     IF = 263,
+     ELSE = 264,
+     WHILE = 265,
+     FOR = 266,
+     VOID = 267,
+     STRUCT = 268,
+     RETURN = 269,
+     OPAR = 270,
+     OPREL = 271,
+     NOTOP = 272,
+     INCR = 273,
+     LPAREN = 274,
+     RPAREN = 275,
+     LBRACK = 276,
+     RBRACK = 277,
+     LBRACE = 278,
+     RBRACE = 279,
+     SEMI = 280,
+     COMMA = 281,
+     ASSIGN = 282,
+     ID = 283,
+     LETRA = 284,
+     DIGITO = 285,
+     REAL = 286,
+     STRING = 287,
+     PRINT = 288,
+     PRINTNL = 289,
+     READ = 290
    };
 #endif
 /* Tokens.  */
 #define BOOL 258
-#define INT 259
-#define CHAR 260
-#define FLOAT 261
-#define IF 262
-#define ELSE 263
-#define WHILE 264
-#define FOR 265
-#define VOID 266
-#define STRUCT 267
-#define RETURN 268
-#define OPAR 269
-#define OPREL 270
-#define NOTOP 271
-#define INCR 272
-#define LPAREN 273
-#define RPAREN 274
-#define LBRACK 275
-#define RBRACK 276
-#define LBRACE 277
-#define RBRACE 278
-#define SEMI 279
-#define COMMA 280
-#define ASSIGN 281
-#define ID 282
-#define LETRA 283
-#define DIGITO 284
-#define REAL 285
-#define STRING 286
-#define PRINT 287
-#define PRINTNL 288
-#define READ 289
+#define BOOLVAL 259
+#define INT 260
+#define CHAR 261
+#define FLOAT 262
+#define IF 263
+#define ELSE 264
+#define WHILE 265
+#define FOR 266
+#define VOID 267
+#define STRUCT 268
+#define RETURN 269
+#define OPAR 270
+#define OPREL 271
+#define NOTOP 272
+#define INCR 273
+#define LPAREN 274
+#define RPAREN 275
+#define LBRACK 276
+#define RBRACK 277
+#define LBRACE 278
+#define RBRACE 279
+#define SEMI 280
+#define COMMA 281
+#define ASSIGN 282
+#define ID 283
+#define LETRA 284
+#define DIGITO 285
+#define REAL 286
+#define STRING 287
+#define PRINT 288
+#define PRINTNL 289
+#define READ 290
 
 
 

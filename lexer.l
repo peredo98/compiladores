@@ -42,6 +42,7 @@ STRING		\"{all}*\"
 "nezahualcoyotl"	{ return INT; }
 "maya"				{ return FLOAT; }
 "malinche"			{ return BOOL; }
+"simon"|"nelson"	{ return BOOLVAL;}
 "chance"			{ return IF; }
 "chanceno"			{ return ELSE; }
 "yolo"				{ return WHILE; }
@@ -63,8 +64,8 @@ STRING		\"{all}*\"
  
 "("				{ return LPAREN; }
 ")"				{ return RPAREN; }
-"]"				{ return LBRACK; }
-"["				{ return RBRACK; }
+"["				{ return LBRACK; }
+"]"				{ return RBRACK; }
 "{"				{ return LBRACE; }
 "}"				{ return RBRACE; }
 ";"				{ return SEMI; }
