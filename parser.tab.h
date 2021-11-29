@@ -48,25 +48,29 @@
      WHILE = 264,
      FOR = 265,
      VOID = 266,
-     RETURN = 267,
-     OPAR = 268,
-     OPREL = 269,
-     NOTOP = 270,
-     INCR = 271,
-     LPAREN = 272,
-     RPAREN = 273,
-     LBRACK = 274,
-     RBRACK = 275,
-     LBRACE = 276,
-     RBRACE = 277,
-     SEMI = 278,
-     COMMA = 279,
-     ASSIGN = 280,
-     ID = 281,
-     LETRA = 282,
-     DIGITO = 283,
-     REAL = 284,
-     STRING = 285
+     STRUCT = 267,
+     RETURN = 268,
+     OPAR = 269,
+     OPREL = 270,
+     NOTOP = 271,
+     INCR = 272,
+     LPAREN = 273,
+     RPAREN = 274,
+     LBRACK = 275,
+     RBRACK = 276,
+     LBRACE = 277,
+     RBRACE = 278,
+     SEMI = 279,
+     COMMA = 280,
+     ASSIGN = 281,
+     ID = 282,
+     LETRA = 283,
+     DIGITO = 284,
+     REAL = 285,
+     STRING = 286,
+     PRINT = 287,
+     PRINTNL = 288,
+     READ = 289
    };
 #endif
 /* Tokens.  */
@@ -79,25 +83,29 @@
 #define WHILE 264
 #define FOR 265
 #define VOID 266
-#define RETURN 267
-#define OPAR 268
-#define OPREL 269
-#define NOTOP 270
-#define INCR 271
-#define LPAREN 272
-#define RPAREN 273
-#define LBRACK 274
-#define RBRACK 275
-#define LBRACE 276
-#define RBRACE 277
-#define SEMI 278
-#define COMMA 279
-#define ASSIGN 280
-#define ID 281
-#define LETRA 282
-#define DIGITO 283
-#define REAL 284
-#define STRING 285
+#define STRUCT 267
+#define RETURN 268
+#define OPAR 269
+#define OPREL 270
+#define NOTOP 271
+#define INCR 272
+#define LPAREN 273
+#define RPAREN 274
+#define LBRACK 275
+#define RBRACK 276
+#define LBRACE 277
+#define RBRACE 278
+#define SEMI 279
+#define COMMA 280
+#define ASSIGN 281
+#define ID 282
+#define LETRA 283
+#define DIGITO 284
+#define REAL 285
+#define STRING 286
+#define PRINT 287
+#define PRINTNL 288
+#define READ 289
 
 
 

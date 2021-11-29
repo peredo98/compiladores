@@ -8,5 +8,9 @@ c            undef     3    8
 d            undef     4 
 i            undef    23   23   23   26 
 j            undef    24   25   26   27 
+m            undef    36 
+n            undef    35 
+ejemplostruct undef    34 
 num1         undef    10   11   18 
 num2         undef    10   14   18 
+co           undef    37 

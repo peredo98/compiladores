@@ -27,4 +27,13 @@ pa(nezahualcoyotl i = 0; i <= 10; i ++){
         j++;
     }
 }
+grave("hello world");
+graveAbajo("hello world con linea");
+wacha();
+
+lopezobradorismo ejemplo{
+    nezahualcoyotl n;
+    malinche m;
+    colon co;
+}
 

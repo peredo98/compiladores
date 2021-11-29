@@ -13,10 +13,11 @@
 %}
  
 /* token definition */
-%token BOOL INT CHAR FLOAT IF ELSE WHILE FOR VOID RETURN
+%token BOOL INT CHAR FLOAT IF ELSE WHILE FOR VOID STRUCT RETURN
 %token OPAR OPREL NOTOP INCR
 %token LPAREN RPAREN LBRACK RBRACK LBRACE RBRACE SEMI COMMA ASSIGN
 %token ID LETRA DIGITO REAL STRING 
+%token PRINT PRINTNL READ
  
 %start programa
  
@@ -32,7 +33,7 @@ declaracion: tipo nombres SEMI | tipo assigment | tipo variable LPAREN args RPAR
 
 args: args COMMA tipo variable | tipo variable | /* empty */ ; 
  
-tipo: INT | CHAR | BOOL | FLOAT | VOID;
+tipo: INT | CHAR | BOOL | FLOAT | VOID ;
  
 nombres: variable | nombres COMMA variable;
  
@@ -45,8 +46,14 @@ array: array LBRACK DIGITO RBRACK | LBRACK DIGITO RBRACK ;
 statements: statements statement | statement;
  
 statement:
-	if_statement | for_statement | while_statement | assigment | RETURN SEMI | RETURN expresion SEMI | function_call | declaraciones
+	if_statement | for_statement | while_statement | assigment | RETURN SEMI | RETURN expresion SEMI | function_call | declaraciones | struct_ | print | print_ln | read
 ;
+
+print: PRINT LPAREN STRING RPAREN SEMI;
+
+print_ln: PRINTNL LPAREN STRING RPAREN SEMI;
+
+read: READ LPAREN RPAREN SEMI;
  
 if_statement: IF LPAREN expresion RPAREN cola else_if else_ ;
  
@@ -62,6 +69,8 @@ for_statement: FOR LPAREN declaracion expresion SEMI expresion RPAREN cola ;
 while_statement: WHILE LPAREN expresion RPAREN cola ;
 
 function_call: variable LPAREN expresiones RPAREN SEMI ;
+
+struct_: STRUCT ID cola ;
  
 cola: statement SEMI | LBRACE statements RBRACE ;
 
@@ -78,7 +87,7 @@ expresion:
 	function_call
 ;
  
-constant: LETRA | DIGITO | REAL ;
+constant: LETRA | DIGITO | REAL | STRING ;
  
 assigment: variable ASSIGN expresion SEMI | variable INCR SEMI; 
  

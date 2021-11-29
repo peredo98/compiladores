@@ -47,7 +47,12 @@ STRING		\"{all}*\"
 "yolo"				{ return WHILE; }
 "pa"				{ return FOR; }
 "rifate"			{ return VOID; }
+"lopezobradorismo"	{ return STRUCT; }
 "traite"			{ return RETURN; }
+"grave"				{ return PRINT; }
+"graveAbajo"		{ return PRINTNL; }
+"wacha"				{ return READ;}
+
  
  
 "+"|"-"|"*"|"/"								{ return OPAR; }
