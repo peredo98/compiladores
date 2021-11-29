@@ -1,0 +1,12 @@
+------------ ------ ------------
+Name         Type   Line Numbers
+------------ ------ -------------
+suma         undef    10   18   19   26 
+a            undef     1    6    8 
+b            undef     2    7    8 
+c            undef     3    8 
+d            undef     4 
+i            undef    23   23   23   26 
+j            undef    24   25   26   27 
+num1         undef    10   11   18 
+num2         undef    10   14   18 

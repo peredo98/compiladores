@@ -1,0 +1,30 @@
+maya a;
+maya b;
+maya c;
+nezahualcoyotl d = 2 + 2;
+
+a = 1.0;
+b = 2.0;
+c = a + b;
+
+rifate suma(nezahualcoyotl num1, nezahualcoyotl num2){
+    chance(num1 < 0){
+        traite 0;
+    }
+    chanceno chance(num2 < 0){
+        traite 0;
+    }
+    chanceno{
+        nezahualcoyotl suma = num1 + num2;
+        traite suma;
+    }
+}
+ 
+pa(nezahualcoyotl i = 0; i <= 10; i ++){
+   nezahualcoyotl j = 0;
+    yolo(j < 10){
+        suma(i + j);
+        j++;
+    }
+}
+
